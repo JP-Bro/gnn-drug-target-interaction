@@ -410,9 +410,10 @@ except Exception:
 try:
     model = load_model()
     model_loaded = True
-except Exception:
+except Exception as e:
     model_loaded = False
     model = None
+    st.error(f"Model failed to load: {e}")
 
 
 # ---------------------------------------------------------------------------
