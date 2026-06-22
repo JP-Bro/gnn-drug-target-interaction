@@ -337,7 +337,8 @@ def get_aa_composition_with_mutation(sequence, protein_name):
 # Data loading (cached)
 # ---------------------------------------------------------------------------
 
-DATA_DIR = Path(__file__).parent / "data" / "GraphDTA" / "data" / "davis"
+# DATA_DIR = Path(__file__).parent / "data" / "GraphDTA" / "data" / "davis"
+DATA_DIR = Path(__file__).parent / "app_data"
 MODEL_PATH = Path(__file__).parent / "models" / "xgb_model_v2.json"
 
 
