@@ -3,3 +3,4 @@ rdkit
 xgboost
 numpy
 pandas
+scikit-learn
