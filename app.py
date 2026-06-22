@@ -208,8 +208,18 @@ h2 { font-weight: 600 !important; }
 
 /* Sidebar */
 section[data-testid="stSidebar"] {
-    background: var(--bg-panel);
+    background: var(--bg-panel) !important;
     border-right: 1px solid var(--border);
+}
+section[data-testid="stSidebar"] * {
+    color: var(--ink) !important;
+}
+section[data-testid="stSidebar"] label {
+    color: var(--ink) !important;
+    font-family: var(--body) !important;
+}
+section[data-testid="stSidebar"] a {
+    color: var(--accent) !important;
 }
 
 /* Inputs */
